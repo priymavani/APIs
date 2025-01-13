@@ -1,6 +1,6 @@
 # LinkedIn API Project
 
-Welcome to the** LinkedIn API project**. API built with Node.js and MongoDB, offering comprehensive functionality for managing users, connections, posts, comments, and messaging within a LinkedIn-like platform. This **API enables CRUD operations **on various resources such as users, posts, and messages.
+Welcome to the **LinkedIn API project**. API built with Node.js and MongoDB, offering comprehensive functionality for managing users, connections, posts, comments, and messaging within a LinkedIn-like platform. This **API enables CRUD operations** on various resources such as users, posts, and messages.
 
 ---
 
