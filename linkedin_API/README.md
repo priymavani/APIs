@@ -46,10 +46,10 @@ For detailed API documentation and example requests, please refer to:
 
 ## 🚀 Overview of API Routes
 
-### User Routes
+
 
 <details>
-<summary>Toggle to view User Routes</summary>
+<summary> ### User Routes</summary>
 
 - **GET /users**: Fetch all users.
 - **GET /users/:userId**: Fetch a specific user by ID.
@@ -62,7 +62,7 @@ For detailed API documentation and example requests, please refer to:
 ### Connection Routes
 
 <details>
-<summary>Toggle to view Connection Routes</summary>
+<summary> Routes</summary>
 
 - **GET /connections/:userId**: Fetch all connections for a user.
 - **POST /connections**: Send a connection request.
