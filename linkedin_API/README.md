@@ -31,7 +31,7 @@ Welcome to the **LinkedIn API project**. API built with Node.js and MongoDB, off
 
 For detailed API documentation and example requests, please refer to:
 
-- Postman API Documentation: [Postman Documentation]( https://www.postman.com/your-collection-link](https://documenter.getpostman.com/view/39217138/2sAYQUpuAq )
+- Postman API Documentation: [Postman Documentation](https://documenter.getpostman.com/view/39217138/2sAYQUpuAq )
 - Google Drive Link for Project Overview: [Google Drive Link](https://drive.google.com/your-file-link)
 
 ---
