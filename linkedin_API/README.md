@@ -47,9 +47,9 @@ For detailed API documentation and example requests, please refer to:
 ## 🚀 Overview of API Routes
 
 
-
+### 👤 User Routes
 <details>
-<summary> ### User Routes</summary>
+<summary>Routes </summary>
 
 - **GET /users**: Fetch all users.
 - **GET /users/:userId**: Fetch a specific user by ID.
@@ -59,10 +59,10 @@ For detailed API documentation and example requests, please refer to:
 
 </details>
 
-### Connection Routes
+### ➕ Connection Routes
 
 <details>
-<summary> Routes</summary>
+<summary>Routes</summary>
 
 - **GET /connections/:userId**: Fetch all connections for a user.
 - **POST /connections**: Send a connection request.
@@ -71,10 +71,10 @@ For detailed API documentation and example requests, please refer to:
 
 </details>
 
-### Post Routes
+### 📤 Post Routes
 
 <details>
-<summary>Toggle to view Post Routes</summary>
+<summary> Routes</summary>
 
 - **GET /posts**: Fetch all posts.
 - **GET /posts/:postId**: Fetch a specific post by ID.
@@ -85,10 +85,10 @@ For detailed API documentation and example requests, please refer to:
 
 </details>
 
-### Comment Routes
+### 💬 Comment Routes
 
 <details>
-<summary>Toggle to view Comment Routes</summary>
+<summary>Routes</summary>
 
 - **GET /posts/:postId/comments**: Fetch all comments for a post.
 - **POST /comments**: Add a comment to a post.
@@ -98,16 +98,17 @@ For detailed API documentation and example requests, please refer to:
 
 </details>
 
-### Messaging Routes
+### 🗪 Messaging Routes
 
 <details>
-<summary>Toggle to view Messaging Routes</summary>
+<summary>Routes</summary>
 
 - **GET /messages/:userId**: Fetch all messages for a user.
 - **POST /messages**: Send a message to another user.
 - **DELETE /messages/:messageId**: Delete a message.
 
 </details>
+
 ## Example of User Creation
 
 ```json
