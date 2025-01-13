@@ -1,6 +1,6 @@
 # LinkedIn API Project
 
-Welcome to the LinkedIn API project. This is a full-stack application built with Node.js and MongoDB, offering comprehensive functionality for managing users, connections, posts, comments, and messaging within a LinkedIn-like platform. This API enables CRUD operations on various resources such as users, posts, and messages.
+Welcome to the LinkedIn API project. API built with Node.js and MongoDB, offering comprehensive functionality for managing users, connections, posts, comments, and messaging within a LinkedIn-like platform. This API enables CRUD operations on various resources such as users, posts, and messages.
 
 ---
 
@@ -31,7 +31,7 @@ Welcome to the LinkedIn API project. This is a full-stack application built with
 
 For detailed API documentation and example requests, please refer to:
 
-- Postman API Documentation: [Postman Documentation](https://www.postman.com/your-collection-link)
+- Postman API Documentation: [Postman Documentation]([https://www.postman.com/your-collection-link](https://documenter.getpostman.com/view/39217138/2sAYQUpuAq))
 - Google Drive Link for Project Overview: [Google Drive Link](https://drive.google.com/your-file-link)
 
 ---
@@ -48,20 +48,33 @@ For detailed API documentation and example requests, please refer to:
 
 ### User Routes
 
+<details>
+<summary>Toggle to view User Routes</summary>
+
 - **GET /users**: Fetch all users.
 - **GET /users/:userId**: Fetch a specific user by ID.
 - **POST /users**: Create a new user.
 - **PATCH /users/:userId**: Update user profile (e.g., add skills, update job details).
 - **DELETE /users/:userId**: Delete a user profile.
 
+</details>
+
 ### Connection Routes
+
+<details>
+<summary>Toggle to view Connection Routes</summary>
 
 - **GET /connections/:userId**: Fetch all connections for a user.
 - **POST /connections**: Send a connection request.
 - **PATCH /connections/:requestId**: Accept or reject a connection request.
 - **DELETE /connections/:connectionId**: Remove a connection.
 
+</details>
+
 ### Post Routes
+
+<details>
+<summary>Toggle to view Post Routes</summary>
 
 - **GET /posts**: Fetch all posts.
 - **GET /posts/:postId**: Fetch a specific post by ID.
@@ -70,7 +83,12 @@ For detailed API documentation and example requests, please refer to:
 - **DELETE /posts/:postId**: Delete a post.
 - **PATCH /posts/:postId/likes**: Increment likes for a post.
 
+</details>
+
 ### Comment Routes
+
+<details>
+<summary>Toggle to view Comment Routes</summary>
 
 - **GET /posts/:postId/comments**: Fetch all comments for a post.
 - **POST /comments**: Add a comment to a post.
@@ -78,14 +96,18 @@ For detailed API documentation and example requests, please refer to:
 - **PATCH /comments/:commentId/likes**: Increment likes for a comment.
 - **DELETE /comments/:commentId**: Delete a comment.
 
+</details>
+
 ### Messaging Routes
+
+<details>
+<summary>Toggle to view Messaging Routes</summary>
 
 - **GET /messages/:userId**: Fetch all messages for a user.
 - **POST /messages**: Send a message to another user.
 - **DELETE /messages/:messageId**: Delete a message.
 
----
-
+</details>
 ## Example of User Creation
 
 ```json
@@ -131,11 +153,6 @@ For detailed API documentation and example requests, please refer to:
 - Provides clear and concise examples for API requests.
 - Follows REST principles for route naming and actions.
 - Includes external links for additional resources.
-
-### Areas for Improvement
-- Add authentication and authorization details for securing routes.
-- Include pagination and filtering options for fetching resources like posts and connections.
-- Expand examples for more complex workflows (e.g., managing connections or messaging).
 
 ---
 
