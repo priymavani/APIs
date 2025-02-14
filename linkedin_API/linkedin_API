@@ -20,7 +20,7 @@ async function initializeDatabase() {
         console.log("Connected to MongoDB");
 
         db = client.db(dbName);
-        users = db.collection("users"); // Correct method to access collections
+        users = db.collection("users"); 
         connections = db.collection("connections");
         messages = db.collection("messages");
         posts = db.collection("posts");
