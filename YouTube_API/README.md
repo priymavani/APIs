@@ -29,6 +29,13 @@ Welcome to the YouTube API project. Built with Node.js and MongoDB, offering com
 - Track subscription dates
 - Fetch user subscriptions
 
+## 📑 API Documentation
+
+For detailed API documentation and example requests, please refer to:
+
+- Postman API Documentation: [Postman Documentation](https://documenter.getpostman.com/view/39217138/2sAYXEDd33 )
+
+
 ## 🛠 Tech Stack
 - Backend: Node.js, Express.js
 - Database: MongoDB
