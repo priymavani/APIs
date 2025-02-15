@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const {MongoClient} = require('mongodb');
 const cors = require('cors');
@@ -5,7 +7,8 @@ const app = express();
 const port = 4030;
 
 // MongoDB connection details
-const uri = "mongodb+srv://priymavanicg:youtube--02@youtube-inspired-api.u0jxa.mongodb.net/";
+// const uri = "mongodb+srv://priymavanicg:youtube--02@youtube-inspired-api.u0jxa.mongodb.net/";
+const uri = process.env.MONGODB_URI;
 const dbName ="youtube_api";
 
 // Middleware
